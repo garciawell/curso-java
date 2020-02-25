@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundaments/ConvertionTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundaments/ConversionChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/ConvertionTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundaments/ConvertionTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundaments/ConvectionTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.ConvertionTypes">
-    <configuration name="AreaCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundaments.AreaCircle" />
-      <module name="bootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundaments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ConversionChallenge">
     <configuration name="Console" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundaments.Console" />
       <module name="bootcampJava" />
@@ -63,8 +52,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertionTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundaments.ConvertionTypes" />
+    <configuration name="ConvectionTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundaments.ConvectionTypes" />
+      <module name="bootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundaments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConversionChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundaments.ConversionChallenge" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConvertionTypes" />
+        <item itemvalue="Application.ConversionChallenge" />
+        <item itemvalue="Application.ConvectionTypes" />
         <item itemvalue="Application.Wrapper" />
         <item itemvalue="Application.Console" />
         <item itemvalue="Application.PrimitiveTypes" />
-        <item itemvalue="Application.AreaCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -134,22 +136,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1288" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567143049" />
-    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1582595960661">
+    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1582597695467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582595960661" />
-    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1582595960661">
+    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
+    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1582597695467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582595960661" />
-    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1582595960661">
+    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
+    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1582597695467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582595960661" />
-    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1582595960661">
+    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
+    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1582597695467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582595960661" />
+    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
     <state x="922" y="163" key="SettingsEditor" timestamp="1582567122922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
