@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundaments/ConversionChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/IF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundaments/ChallengeArithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundaments/operators/Logics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/fundaments/ConvertionTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundaments/ConvertionTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundaments/ConvectionTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/AreaCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/ConvectionTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/ConversionChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/FirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/fundaments/FirstProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/Interference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/PrimitiveTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/Wrapper.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YGRlWt3RwPgKy7Yk168Mqig61P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,9 +49,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.ConversionChallenge">
-    <configuration name="Console" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundaments.Console" />
+  <component name="RunManager" selected="Application.While">
+    <configuration name="ChallengeArithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundaments.ChallengeArithmetic" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundaments.PrimitiveTypes" />
+    <configuration name="While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control.While" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundaments.*" />
+          <option name="PATTERN" value="control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.While" />
+        <item itemvalue="Application.ChallengeArithmetic" />
         <item itemvalue="Application.ConversionChallenge" />
         <item itemvalue="Application.ConvectionTypes" />
         <item itemvalue="Application.Wrapper" />
-        <item itemvalue="Application.Console" />
-        <item itemvalue="Application.PrimitiveTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -136,22 +147,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1288" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567143049" />
-    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1582597695467">
+    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1582659523369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
-    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1582597695467">
+    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582659523369" />
+    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1582665461659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
-    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1582597695467">
+    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582665461659" />
+    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1582665461659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
-    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1582597695467">
+    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582665461659" />
+    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1582665461659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582597695467" />
+    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582665461659" />
+    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1582665461659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582665461659" />
+    <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1582599728592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582599728592" />
+    <state width="916" height="344" key="GridCell.Tab.1.center" timestamp="1582599728592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582599728592" />
+    <state width="916" height="344" key="GridCell.Tab.1.left" timestamp="1582599728592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582599728592" />
+    <state width="916" height="344" key="GridCell.Tab.1.right" timestamp="1582599728592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582599728592" />
     <state x="922" y="163" key="SettingsEditor" timestamp="1582567122922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
