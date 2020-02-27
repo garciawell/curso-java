@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,22 +39,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.ProductTest">
+  <component name="RunManager" selected="Application.DataTest">
     <configuration name="ChallengeArithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundaments.ChallengeArithmetic" />
-      <module name="bootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundaments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConvectionTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundaments.ConvectionTypes" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -72,6 +59,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fundaments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.DataTest" />
+      <module name="bootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataTest" />
         <item itemvalue="Application.ProductTest" />
         <item itemvalue="Application.While" />
         <item itemvalue="Application.ChallengeArithmetic" />
         <item itemvalue="Application.ConversionChallenge" />
-        <item itemvalue="Application.ConvectionTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -133,12 +133,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582665491880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating class Product">
+      <created>1582769049735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582769049735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estrutura de controle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estrutura de controle" />
+    <MESSAGE value="Creating class Product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating class Product" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1582570684111">
@@ -149,26 +157,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1288" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567143049" />
-    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1582665490894">
+    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1582769048905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582665490894" />
-    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1582769030390">
+    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582769048905" />
+    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1582769542389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582769030390" />
-    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1582769030390">
+    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582769542389" />
+    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1582769542389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582769030390" />
-    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1582769030390">
+    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582769542389" />
+    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1582769542389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582769030390" />
-    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1582769030390">
+    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582769542389" />
+    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1582769542389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582769030390" />
+    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582769542389" />
     <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1582599728592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582567122922" />
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582665494981">
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582769054911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582665494981" />
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582769054911" />
     <state x="1136" y="252" width="607" height="536" key="find.popup" timestamp="1582595327085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
