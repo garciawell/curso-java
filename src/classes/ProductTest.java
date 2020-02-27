@@ -15,8 +15,8 @@ public class ProductTest {
         System.out.println(p1.name);
         System.out.println(p2.name);
 
-        double finalPrice1 = p1.price * (1 - p1.discount);
-        double finalPrice2 = p2.price * (1 - p2.discount);
+        double finalPrice1 = p1.priceWithDiscount();
+        double finalPrice2 = p2.priceWithDiscount();
 
         double averageCart = (finalPrice1 + finalPrice2) / 2;
 
