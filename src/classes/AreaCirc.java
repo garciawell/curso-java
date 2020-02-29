@@ -2,7 +2,7 @@ package classes;
 
 public class AreaCirc {
     double raid;
-    static double pi = 3.14;
+    static final double pi = 3.14;
 
     AreaCirc(double initialRaid){
         raid = initialRaid;

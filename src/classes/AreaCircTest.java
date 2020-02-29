@@ -7,7 +7,6 @@ public class AreaCircTest {
 
         AreaCirc a2 = new AreaCirc(10);
 
-        AreaCirc.pi = 3.1415;
         System.out.println(a2.area());
     }
 }
