@@ -2,13 +2,11 @@ package classes;
 
 public class ProductTest {
     public static void main(String[] args) {
-       Product p1 = new Product();
-       p1.name = "Notebook";
+       Product p1 = new Product("Notebook");
        p1.price = 4556.89;
        p1.discount = 0.25;
 
-       Product p2 = new Product();
-       p2.name = "Caneta Preta";
+       Product p2 = new Product("Caneta Preta");
        p2.price = 12.56;
        p2.discount = 0.15;
 
