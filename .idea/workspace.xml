@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Array For">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Foreach.java" afterDir="false" />
+    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Equals object">
+      <change afterPath="$PROJECT_DIR$/src/arrays/Matriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/EqualsHashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +40,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.Foreach">
-    <configuration name="AreaCircTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.AreaCircTest" />
+  <component name="RunManager" selected="Application.EqualsHashCode">
+    <configuration name="EqualsHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.EqualsHashCode" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueVsReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.ValueVsReference" />
+    <configuration name="Matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Matriz" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsHashCode" />
+        <item itemvalue="Application.Matriz" />
         <item itemvalue="Application.Foreach" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.FirstProblem" />
-        <item itemvalue="Application.ValueVsReference" />
-        <item itemvalue="Application.AreaCircTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583283187040</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Challenge Grades">
+      <created>1583284670246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583284670246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,7 +186,9 @@
     <MESSAGE value="Creating constructor" />
     <MESSAGE value="Valor e Referencia" />
     <MESSAGE value="Array For" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array For" />
+    <MESSAGE value="Challenge Grades" />
+    <MESSAGE value="Equals object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Equals object" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1582570684111">
@@ -192,26 +203,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1583284076137">
+    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1583376340751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583284076137" />
-    <state width="916" height="344" key="GridCell.Tab.0.bottom" timestamp="1583284645384">
+    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583376340751" />
+    <state width="916" height="114" key="GridCell.Tab.0.bottom" timestamp="1583376325271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583284645384" />
-    <state width="916" height="344" key="GridCell.Tab.0.center" timestamp="1583284645383">
+    <state width="916" height="114" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583376325271" />
+    <state width="916" height="114" key="GridCell.Tab.0.center" timestamp="1583376325270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583284645383" />
-    <state width="916" height="344" key="GridCell.Tab.0.left" timestamp="1583284645383">
+    <state width="916" height="114" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583376325270" />
+    <state width="916" height="114" key="GridCell.Tab.0.left" timestamp="1583376325270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583284645383" />
-    <state width="916" height="344" key="GridCell.Tab.0.right" timestamp="1583284645384">
+    <state width="916" height="114" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583376325270" />
+    <state width="916" height="114" key="GridCell.Tab.0.right" timestamp="1583376325270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583284645384" />
+    <state width="916" height="114" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583376325270" />
     <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1583284645384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,10 +243,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582567122922" />
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583283189977">
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583284672574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583283189977" />
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583284672574" />
     <state x="1136" y="252" width="607" height="536" key="find.popup" timestamp="1582595327085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
