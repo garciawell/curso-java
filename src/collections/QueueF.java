@@ -18,5 +18,9 @@ public class QueueF {
         System.out.println(queue.element());
 
 
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+
+
     }
 }

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collections/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/QueueF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/conjunto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/conjuntoHomo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/Pile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/QueueF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/QueueF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +39,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.QueueF">
-    <configuration name="EqualsHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.EqualsHashCode" />
+  <component name="RunManager" selected="Application.Pile">
+    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.List" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.List" />
+    <configuration name="Pile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Pile" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pile" />
         <item itemvalue="Application.QueueF" />
         <item itemvalue="Application.List" />
         <item itemvalue="Application.conjuntoHomo" />
         <item itemvalue="Application.conjunto" />
-        <item itemvalue="Application.EqualsHashCode" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583376361255</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fila e Lista">
+      <created>1583894477406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583894477406</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +201,8 @@
     <MESSAGE value="Array For" />
     <MESSAGE value="Challenge Grades" />
     <MESSAGE value="Equals object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Equals object" />
+    <MESSAGE value="Fila e Lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fila e Lista" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1583880423557">
@@ -214,26 +217,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1583376360458">
+    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1583894476565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583376360458" />
-    <state width="916" height="201" key="GridCell.Tab.0.bottom" timestamp="1583894459488">
+    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583894476565" />
+    <state width="916" height="201" key="GridCell.Tab.0.bottom" timestamp="1583894896744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583894459488" />
-    <state width="916" height="201" key="GridCell.Tab.0.center" timestamp="1583894459487">
+    <state width="916" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583894896744" />
+    <state width="916" height="201" key="GridCell.Tab.0.center" timestamp="1583894896743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583894459487" />
-    <state width="916" height="201" key="GridCell.Tab.0.left" timestamp="1583894459487">
+    <state width="916" height="201" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583894896743" />
+    <state width="916" height="201" key="GridCell.Tab.0.left" timestamp="1583894896743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583894459487" />
-    <state width="916" height="201" key="GridCell.Tab.0.right" timestamp="1583894459488">
+    <state width="916" height="201" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583894896743" />
+    <state width="916" height="201" key="GridCell.Tab.0.right" timestamp="1583894896743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583894459488" />
+    <state width="916" height="201" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583894896743" />
     <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1583284645384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582567122922" />
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583284672574">
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583894480144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583284672574" />
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583894480144" />
     <state x="1136" y="252" width="607" height="536" key="find.popup" timestamp="1582595327085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
