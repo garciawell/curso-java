@@ -6,7 +6,6 @@ public class User {
     String name;
     String email;
 
-
     public boolean equals(Object obj) {
         User other = (User) obj;
 
