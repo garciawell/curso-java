@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/CursoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/CartTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +42,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.CursoTeste">
+  <component name="RunManager" selected="Application.CartTeste">
     <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OO.composicao.CarroTeste" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OO.composicao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OO.composicao.desafio.CartTeste" />
+      <module name="bootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OO.composicao.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,26 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.MapC" />
-      <module name="bootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CartTeste" />
         <item itemvalue="Application.CursoTeste" />
         <item itemvalue="Application.CompraTeste" />
         <item itemvalue="Application.CarroTeste" />
         <item itemvalue="Application.Hash" />
-        <item itemvalue="Application.MapC" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584484403363</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ManyToMany - relacionamento vários para vários">
+      <created>1584485618313</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584485618313</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,7 +268,8 @@
     <MESSAGE value="OneToOne" />
     <MESSAGE value="OneToMany" />
     <MESSAGE value="OneToMany - acessando niveis console" />
-    <option name="LAST_COMMIT_MESSAGE" value="OneToMany - acessando niveis console" />
+    <MESSAGE value="ManyToMany - relacionamento vários para vários" />
+    <option name="LAST_COMMIT_MESSAGE" value="ManyToMany - relacionamento vários para vários" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1584485278398">
@@ -274,26 +284,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1584484402456">
+    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1584485617500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584484402456" />
-    <state width="916" height="204" key="GridCell.Tab.0.bottom" timestamp="1584485591155">
+    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584485617500" />
+    <state width="916" height="204" key="GridCell.Tab.0.bottom" timestamp="1584487179211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584485591155" />
-    <state width="916" height="204" key="GridCell.Tab.0.center" timestamp="1584485591155">
+    <state width="916" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
+    <state width="916" height="204" key="GridCell.Tab.0.center" timestamp="1584487179211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584485591155" />
-    <state width="916" height="204" key="GridCell.Tab.0.left" timestamp="1584485591155">
+    <state width="916" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
+    <state width="916" height="204" key="GridCell.Tab.0.left" timestamp="1584487179211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584485591155" />
-    <state width="916" height="204" key="GridCell.Tab.0.right" timestamp="1584485591155">
+    <state width="916" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
+    <state width="916" height="204" key="GridCell.Tab.0.right" timestamp="1584487179211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584485591155" />
+    <state width="916" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
     <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1583284645384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,14 +324,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582567122922" />
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584483401762">
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584485620630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584483401762" />
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584485620630" />
     <state x="1136" y="252" width="607" height="536" key="find.popup" timestamp="1582595327085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1136" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582595327085" />
+    <state x="1182" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1584486848034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1182" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584486848034" />
     <state x="1096" y="242" key="run.anything.popup" timestamp="1582567168377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
