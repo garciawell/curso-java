@@ -11,5 +11,7 @@ public class CompraTeste {
 
         System.out.println(c1.itens.size());
         System.out.println(c1.getValorTotal());
+
+        System.out.println("O total é R$" +  c1.itens.get(0).compra.itens.get(1).compra.getValorTotal());
     }
 }
