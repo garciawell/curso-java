@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/CartTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/composicao/desafio/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/Direcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/bootcampJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fundaments/FirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/fundaments/FirstProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OO/composicao/desafio/CartTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/desafio/CartTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OO/composicao/desafio/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/desafio/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OO/composicao/desafio/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/desafio/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OO/composicao/desafio/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/desafio/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OO/composicao/desafio/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/desafio/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +44,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaspring/javaspring" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.CartTeste">
+  <component name="RunManager" selected="Application.Jogo">
     <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OO.composicao.CarroTeste" />
       <module name="bootcampJava" />
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Hash" />
+    <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OO.heranca.Jogo" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="OO.heranca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.CartTeste" />
         <item itemvalue="Application.CursoTeste" />
         <item itemvalue="Application.CompraTeste" />
         <item itemvalue="Application.CarroTeste" />
-        <item itemvalue="Application.Hash" />
       </list>
     </recent_temporary>
   </component>
@@ -288,22 +293,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584485617500" />
-    <state width="916" height="204" key="GridCell.Tab.0.bottom" timestamp="1584487179211">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1585446913733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
-    <state width="916" height="204" key="GridCell.Tab.0.center" timestamp="1584487179211">
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585446913733" />
+    <state width="916" height="200" key="GridCell.Tab.0.bottom" timestamp="1585499793079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
-    <state width="916" height="204" key="GridCell.Tab.0.left" timestamp="1584487179211">
+    <state width="916" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585499793079" />
+    <state width="916" height="200" key="GridCell.Tab.0.center" timestamp="1585499793079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
-    <state width="916" height="204" key="GridCell.Tab.0.right" timestamp="1584487179211">
+    <state width="916" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585499793079" />
+    <state width="916" height="200" key="GridCell.Tab.0.left" timestamp="1585499793079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584487179211" />
+    <state width="916" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585499793079" />
+    <state width="916" height="200" key="GridCell.Tab.0.right" timestamp="1585499793079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585499793079" />
     <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1583284645384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
