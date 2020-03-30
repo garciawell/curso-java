@@ -2,7 +2,7 @@ package OO.heranca.desafio;
 
 public class Pista {
     public static void main(String[] args) {
-        Carro p1 = new Carro();
+        Carro p1 = new Carro(120);
         Civic p2 = new Civic();
 
         System.out.println("CARRO VELOCIDADE " + p1.velocidade);
