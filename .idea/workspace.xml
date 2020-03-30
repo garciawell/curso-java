@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OO/encapsulamento/casaA/Ana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/encapsulamento/casaA/Paulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/encapsulamento/casaB/Julia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/encapsulamento/casaB/Pedro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Monstro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Monstro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/desafio/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/desafio/Civic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Civic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/desafio/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Ferrari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/desafio/Pista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Pista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585531127902</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Passando valores contrutor classe pai atraves do super">
+      <created>1585608865831</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585608865832</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -323,7 +326,8 @@
     <MESSAGE value="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA" />
     <MESSAGE value="Desafio velocidade atual" />
     <MESSAGE value="Desafio velocidade atual - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio velocidade atual - 2" />
+    <MESSAGE value="Passando valores contrutor classe pai atraves do super" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passando valores contrutor classe pai atraves do super" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1584485278398">
@@ -338,10 +342,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="771" y="115" key="CommitChangelistDialog2" timestamp="1585531127219">
+    <state x="771" y="115" key="CommitChangelistDialog2" timestamp="1585608865013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="771" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585531127219" />
+    <state x="771" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585608865013" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1585446913733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -382,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582567122922" />
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585531129255">
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585608867247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585531129255" />
+    <state x="1032" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585608867247" />
     <state x="1144" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585531056782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
