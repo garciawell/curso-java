@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" afterDir="false" />
+    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA">
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/Monstro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585499811448</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Criando exemplo de Heranca entre jogador e heroi">
+      <created>1585528908993</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585528908993</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA">
+      <created>1585529109412</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585529109412</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +289,9 @@
     <MESSAGE value="OneToMany - acessando niveis console" />
     <MESSAGE value="ManyToMany - relacionamento vários para vários" />
     <MESSAGE value="Criando enuns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando enuns" />
+    <MESSAGE value="Criando exemplo de Heranca entre jogador e heroi" />
+    <MESSAGE value="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1584485278398">
@@ -290,46 +306,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="1066" y="115" key="CommitChangelistDialog2" timestamp="1585528908208">
+    <state x="771" y="115" key="CommitChangelistDialog2" timestamp="1585529478251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585528908208" />
+    <state x="771" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585529478251" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1585446913733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585446913733" />
-    <state width="916" height="253" key="GridCell.Tab.0.bottom" timestamp="1585528856010">
+    <state width="916" height="253" key="GridCell.Tab.0.bottom" timestamp="1585529587491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856010" />
-    <state width="916" height="253" key="GridCell.Tab.0.center" timestamp="1585528856010">
+    <state width="916" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
+    <state width="916" height="253" key="GridCell.Tab.0.center" timestamp="1585529587491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856010" />
-    <state width="916" height="253" key="GridCell.Tab.0.left" timestamp="1585528856010">
+    <state width="916" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
+    <state width="916" height="253" key="GridCell.Tab.0.left" timestamp="1585529587491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856010" />
-    <state width="916" height="253" key="GridCell.Tab.0.right" timestamp="1585528856010">
+    <state width="916" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
+    <state width="916" height="253" key="GridCell.Tab.0.right" timestamp="1585529587491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856010" />
-    <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585528856011">
+    <state width="916" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
+    <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585529587492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856011" />
-    <state width="916" height="253" key="GridCell.Tab.1.center" timestamp="1585528856011">
+    <state width="916" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587492" />
+    <state width="916" height="253" key="GridCell.Tab.1.center" timestamp="1585529587492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856011" />
-    <state width="916" height="253" key="GridCell.Tab.1.left" timestamp="1585528856011">
+    <state width="916" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587492" />
+    <state width="916" height="253" key="GridCell.Tab.1.left" timestamp="1585529587491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856011" />
-    <state width="916" height="253" key="GridCell.Tab.1.right" timestamp="1585528856011">
+    <state width="916" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
+    <state width="916" height="253" key="GridCell.Tab.1.right" timestamp="1585529587492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585528856011" />
+    <state width="916" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587492" />
     <state x="922" y="163" key="SettingsEditor" timestamp="1582567122922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
