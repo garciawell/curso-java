@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA">
-      <change afterPath="$PROJECT_DIR$/src/OO/heranca/Monstro.java" afterDir="false" />
+    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Desafio velocidade atual">
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Civic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OO/heranca/desafio/Pista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Heroi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/heranca/Jogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaspring/javaspring" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Application.Jogo">
-    <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OO.composicao.CarroTeste" />
-      <module name="bootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OO.composicao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Pista">
     <configuration name="CartTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OO.composicao.desafio.CartTeste" />
       <module name="bootcampJava" />
@@ -106,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Pista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OO.heranca.desafio.Pista" />
+      <module name="bootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OO.heranca.desafio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pista" />
         <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.CartTeste" />
         <item itemvalue="Application.CursoTeste" />
         <item itemvalue="Application.CompraTeste" />
-        <item itemvalue="Application.CarroTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585529109412</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Sobrescrever comportamento atraves da classe filha,no qual pega as informacoes do pai e sobreescreve no filho - HERANCA">
+      <created>1585529612141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585529612141</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,30 +314,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="771" y="115" key="CommitChangelistDialog2" timestamp="1585529478251">
+    <state x="771" y="115" key="CommitChangelistDialog2" timestamp="1585530903628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="771" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585529478251" />
+    <state x="771" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585530903628" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1585446913733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585446913733" />
-    <state width="916" height="253" key="GridCell.Tab.0.bottom" timestamp="1585529587491">
+    <state width="916" height="200" key="GridCell.Tab.0.bottom" timestamp="1585530945004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
-    <state width="916" height="253" key="GridCell.Tab.0.center" timestamp="1585529587491">
+    <state width="916" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585530945004" />
+    <state width="916" height="200" key="GridCell.Tab.0.center" timestamp="1585530945003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
-    <state width="916" height="253" key="GridCell.Tab.0.left" timestamp="1585529587491">
+    <state width="916" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585530945003" />
+    <state width="916" height="200" key="GridCell.Tab.0.left" timestamp="1585530945003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
-    <state width="916" height="253" key="GridCell.Tab.0.right" timestamp="1585529587491">
+    <state width="916" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585530945003" />
+    <state width="916" height="200" key="GridCell.Tab.0.right" timestamp="1585530945004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585529587491" />
+    <state width="916" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585530945004" />
     <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585529587492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
