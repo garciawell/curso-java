@@ -14,8 +14,12 @@ public class Pista {
         p1.frear(p1);
         p1.frear(p1);
         System.out.println("CARRO VELOCIDADE " + p1.velocidade);
+        Ferrari c2 = new Ferrari(25);
+        c2.ligarTurbo();
+        c2.ligarTurbo();
 
         p2.frear(p2);
         System.out.println("CARRO VELOCIDADE 2 " + p2.velocidade);
+        System.out.println("FERRARI " + c2.VELOCIDADE_MAXIMA);
     }
 }
