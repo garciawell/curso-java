@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambdas/CalculoTeste3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/Calculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/CalculoTeste2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/CalculoTeste2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../diario-obras-backend" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambdas" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.CalculoTeste2">
     <configuration name="CalculoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -347,11 +351,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585697689025</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Interface Funcional">
+      <created>1585790490467</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585790490467</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array For" />
     <MESSAGE value="Challenge Grades" />
     <MESSAGE value="Equals object" />
     <MESSAGE value="Fila e Lista" />
@@ -376,7 +386,8 @@
     <MESSAGE value="Criando interfaces e entendendo conceito" />
     <MESSAGE value="Classes abstratas" />
     <MESSAGE value="Primeira Função Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira Função Lambda" />
+    <MESSAGE value="Interface Funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface Funcional" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585612349085">
@@ -391,10 +402,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583281943162" />
-    <state x="1077" y="93" width="694" height="808" key="CommitChangelistDialog2" timestamp="1585697688252">
+    <state x="1077" y="93" width="694" height="808" key="CommitChangelistDialog2" timestamp="1585790489600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1077" y="93" width="694" height="808" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585697688252" />
+    <state x="1077" y="93" width="694" height="808" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585790489600" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1585698538097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
