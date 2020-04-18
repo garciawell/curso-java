@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Funcao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/Foreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/Foreach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="122" />
@@ -23,13 +47,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1YGRlWt3RwPgKy7Yk168Mqig61P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,17 +63,21 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../diario-obras-backend" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/desafios/juliocesar/back-end-cadastro-de-pessoas" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Foreach">
+  <component name="RunManager" selected="Application.Funcao">
     <configuration name="CalculoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambdas.CalculoTeste" />
       <module name="bootcampJava" />
@@ -87,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jantar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OO.polimorfismo.Jantar" />
+    <configuration name="Funcao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.Funcao" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OO.polimorfismo.*" />
+          <option name="PATTERN" value="lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Funcao" />
+        <item itemvalue="Application.CalculoTeste" />
         <item itemvalue="Application.Foreach" />
         <item itemvalue="Application.CalculoTeste2" />
-        <item itemvalue="Application.CalculoTeste" />
         <item itemvalue="Application.TesteAbstrato" />
-        <item itemvalue="Application.Jantar" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +405,18 @@
     <option name="localTasksCounter" value="35" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fila e Lista" />
     <MESSAGE value="Fila e pilha" />
@@ -404,6 +446,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Foreach Funcional" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="443" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1586621639539">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="130" width="1024" height="845" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1586621639539" />
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585612349085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,26 +466,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1077" y="93" width="694" height="808" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585882099730" />
-    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1585698538097">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1220" y="291" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586879414753">
+      <screen x="0" y="27" width="1920" height="998" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585698538097" />
-    <state width="916" height="203" key="GridCell.Tab.0.bottom" timestamp="1585882279313">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1220" y="291" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.998@0.27.1920.998" timestamp="1586879414753" />
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1587174190493">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="916" height="203" key="GridCell.Tab.0.center" timestamp="1585882279313">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587174190493" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1587174190492">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="916" height="203" key="GridCell.Tab.0.left" timestamp="1585882279313">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587174190492" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1587174190492">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="916" height="203" key="GridCell.Tab.0.right" timestamp="1585882279313">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587174190492" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1587174190493">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587174190493" />
     <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585569264056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,10 +507,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="916" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585569264056" />
-    <state x="922" y="163" key="SettingsEditor" timestamp="1582567122922">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="614" y="205" key="SettingsEditor" timestamp="1586621710819">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="922" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582567122922" />
+    <state x="614" y="205" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1586621710819" />
     <state x="1032" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585790748040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
