@@ -27,7 +27,7 @@ public class ImprimirObjetos {
         }
 
 
-        System.out.println("Usando STREAM");
+        System.out.println("Usando STREAM2");
         Stream<String> st = aprovados.stream();
 
         st.forEach(System.out::println);
