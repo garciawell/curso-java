@@ -10,11 +10,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/streams/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Utilitarios.java" afterDir="false" />
+    <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Foreach Funcional">
+      <change afterPath="$PROJECT_DIR$/src/streams/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/streams/CriandoStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/streams/CriandoStreams.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +73,22 @@
       <recent name="lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Map">
+  <component name="RunManager" selected="Application.Filter">
     <configuration name="CriandoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.CriandoStreams" />
+      <module name="bootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Filter" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -127,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperadorUnario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.OperadorUnario" />
-      <module name="bootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Filter" />
         <item itemvalue="Application.Map" />
         <item itemvalue="Application.CriandoStreams" />
         <item itemvalue="Application.ImprimirObjetos" />
         <item itemvalue="Application.OperadorBinario" />
-        <item itemvalue="Application.OperadorUnario" />
       </list>
     </recent_temporary>
   </component>
@@ -453,10 +452,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="130" width="1024" height="845" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1586621639539" />
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585612349085">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1245" y="260" width="374" height="591" key="#com.intellij.ide.util.MemberChooser" timestamp="1587344286969">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585612349085" />
+    <state x="1245" y="260" width="374" height="591" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1587344286968" />
     <state x="1288" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582567143049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -473,31 +473,32 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1060" y="127" width="760" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587174538083" />
-    <state x="1220" y="291" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586879414753">
-      <screen x="0" y="27" width="1920" height="998" />
+    <state x="1220" y="306" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587315047319">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585698538097" />
+    <state x="1220" y="306" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587315047319" />
     <state x="1220" y="291" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.998@0.27.1920.998" timestamp="1586879414753" />
-    <state width="904" height="278" key="GridCell.Tab.0.bottom" timestamp="1587262231332">
+    <state width="904" height="278" key="GridCell.Tab.0.bottom" timestamp="1587267770763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="904" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587262231332" />
-    <state width="904" height="278" key="GridCell.Tab.0.center" timestamp="1587262231329">
+    <state width="904" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587267770763" />
+    <state width="904" height="278" key="GridCell.Tab.0.center" timestamp="1587267770763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="904" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587262231329" />
-    <state width="904" height="278" key="GridCell.Tab.0.left" timestamp="1587262231329">
+    <state width="904" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587267770763" />
+    <state width="904" height="278" key="GridCell.Tab.0.left" timestamp="1587267770763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="904" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587262231329" />
-    <state width="904" height="278" key="GridCell.Tab.0.right" timestamp="1587262231330">
+    <state width="904" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587267770763" />
+    <state width="904" height="278" key="GridCell.Tab.0.right" timestamp="1587267770763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="904" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587262231330" />
+    <state width="904" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587267770763" />
     <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585569264056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
