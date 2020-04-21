@@ -11,8 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Foreach Funcional">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ChecadaVsNaoChecada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Causa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Finally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaA/NumeroNegativoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaA/StringVaziaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaA/TesteValidacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaA/Validar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaB/NumeroNegativoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaB/StringVaziaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaB/TesteValidacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/personalizadaB/Validar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../desafios/yesley/softplan-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/exceptions/personalizadaB" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -69,13 +79,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptions.personalizadaA" />
       <recent name="exceptions" />
       <recent name="lambdas" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/exceptions/personalizadaB" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ChecadaVsNaoChecada">
+  <component name="RunManager" selected="Application.Causa">
     <configuration name="Basico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.Basico" />
+      <module name="bootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Causa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.Causa" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Match" />
+    <configuration name="Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.Finally" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,25 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.MinMax" />
+    <configuration name="TesteValidacoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.personalizadaA.TesteValidacoes" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Outras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Outras" />
-      <module name="bootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="exceptions.personalizadaA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Causa" />
+        <item itemvalue="Application.Finally" />
+        <item itemvalue="Application.TesteValidacoes" />
         <item itemvalue="Application.ChecadaVsNaoChecada" />
         <item itemvalue="Application.Basico" />
-        <item itemvalue="Application.Outras" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.Match" />
       </list>
     </recent_temporary>
   </component>
@@ -479,26 +493,26 @@
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585698538097" />
     <state x="1220" y="306" width="424" height="483" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587404838205" />
     <state x="1220" y="291" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.998@0.27.1920.998" timestamp="1586879414753" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1587441018064">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1587443294420">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587441018064" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1587441018063">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587443294420" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1587443294418">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587441018063" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1587441018063">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587443294418" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1587443294418">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587441018063" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1587441018063">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587443294418" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1587443294419">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587441018063" />
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587443294419" />
     <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585569264056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
