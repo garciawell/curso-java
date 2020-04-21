@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b322ac3-69b7-4ed0-820c-f504ddb93ad2" name="Default Changelist" comment="Foreach Funcional">
-      <change afterPath="$PROJECT_DIR$/src/streams/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Outras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Basico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/desafios/juliocesar/back-end-cadastro-de-pessoas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../desafios/yesley/softplan-java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -71,16 +70,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptions" />
       <recent name="lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Outras">
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Match" />
+  <component name="RunManager" selected="Application.Basico">
+    <configuration name="Basico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.Basico" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.MediaTeste" />
+    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Match" />
       <module name="bootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basico" />
         <item itemvalue="Application.Outras" />
         <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.Match" />
         <item itemvalue="Application.Reduce3" />
-        <item itemvalue="Application.MediaTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -474,32 +474,32 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1060" y="127" width="760" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587174538083" />
-    <state x="1220" y="306" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587315047319">
+    <state x="1220" y="306" width="424" height="483" key="FileChooserDialogImpl" timestamp="1587404838205">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585698538097" />
-    <state x="1220" y="306" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587315047319" />
+    <state x="1220" y="306" width="424" height="483" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587404838205" />
     <state x="1220" y="291" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.998@0.27.1920.998" timestamp="1586879414753" />
-    <state width="913" height="277" key="GridCell.Tab.0.bottom" timestamp="1587347496675">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1587440256547">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="913" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587347496675" />
-    <state width="913" height="277" key="GridCell.Tab.0.center" timestamp="1587347496674">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587440256547" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1587440256527">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="913" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587347496674" />
-    <state width="913" height="277" key="GridCell.Tab.0.left" timestamp="1587347496674">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587440256527" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1587440256521">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="913" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587347496674" />
-    <state width="913" height="277" key="GridCell.Tab.0.right" timestamp="1587347496674">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587440256521" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1587440256542">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="916" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585882279313" />
-    <state width="913" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587347496674" />
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587440256542" />
     <state width="916" height="253" key="GridCell.Tab.1.bottom" timestamp="1585569264056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
